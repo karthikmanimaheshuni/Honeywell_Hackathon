@@ -1,4 +1,4 @@
-Run this command on bash:
+##Run this command on bash:
 
 python data.py 
 --input ./input.csv 
@@ -10,7 +10,7 @@ python data.py
 --analysis-end "2004-01-19 07:59"
 
 
-Proposed Solution
+##Proposed Solution
 The solution is a modular, command-line Python pipeline for automated anomaly detection in multivariate time series data, as specified by your hackathon. It preprocesses raw sensor/process data, robustly handles missing/invalid/constant data, uses unsupervised learning (PCA-based reconstruction error), and surfaces both anomaly scores and root-cause feature attributions. Training occurs only on a user-defined “normal” period; scoring is performed for a larger analysis period, with the output as a fully annotated CSV per requirements.
 
 Key Features:
